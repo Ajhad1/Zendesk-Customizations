@@ -1,0 +1,6 @@
+<form method='POST'  action="https://alejandroc.com/HTTPPOSTTESTTemplate.php" id="tag">
+  <input type="hidden" name="tagvalue" value='test_tag'>
+  <input type="hidden" name="ticketid" value='8378'>
+</form> 
+
+<button type="submit" form="tag" value="Submit">Submit</button>
