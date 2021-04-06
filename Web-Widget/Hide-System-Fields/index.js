@@ -15,12 +15,14 @@
         // uncomment the code to hide the section you would like to hide
         // the div:nth-child(?) will change based on how many fields you have change the number to match your field
         /* hides the name field */
+        // the div:nth-child(?) will change based on what number your field is
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(1) {
           display: none;
         }
         */
         /* hides the email field */
+        // the div:nth-child(?) will change based on what number your field is
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(2){
           display: none;
