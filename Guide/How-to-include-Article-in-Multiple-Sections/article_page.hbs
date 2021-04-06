@@ -1,0 +1,28 @@
+<!-- adds article labels to a variable called labels and redirects to any article ID in the labels -->
+<script>
+    var labels = [];
+    {{#each article.labels}}
+        labels.push('{{identifier}}');
+    {{/each}}
+
+    // logging for debugging
+    console.log('Labels:');
+    console.log(labels);
+
+    // if there are labels and if there is a label that is a number above 
+    // 200000000 then redirect to that article
+    if(typeof labels !== 'undefined'){
+        for (var i = 0; i < labels.length; i++) {
+            if (labels[i] > 200000000) {
+                // grabs the url and removes the extraneous information
+                var baseurl = window.location.href.match(/^([\w/:.]*)([/])([hc]+)([/])([\w-]*)/g);
+                
+                // some logging for debugging
+                console.log(baseurl + '/articles/' + labels[i]);
+		
+                // changes the page to the baseurl + article section + the article ID
+                window.location.href = baseurl + '/articles/' + labels[i];
+            }
+        }
+    }
+</script>
