@@ -12,3 +12,4 @@ Actions
 -----------
 
 * Add Tags | not_assigned_notification_sent
+* Notification | (Choose whatever ever notification method you would like to use)
