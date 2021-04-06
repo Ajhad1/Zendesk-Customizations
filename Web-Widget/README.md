@@ -1,5 +1,5 @@
 # Zendesk-Web-Widget-Modifications
-Copies of javascript that can be used to modify the Zendesk Web Widget
+Copies of code that can be used to modify the Zendesk Web Widget
 
 Some code segments need to be copied below the initialization of the web widget. Some need to be copied above the web widget. 
 This should be specified in each code segment.
