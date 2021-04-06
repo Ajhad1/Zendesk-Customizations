@@ -67,6 +67,7 @@ Remove or comment out the following code:
 Remove the comment code `/*` and `*/` on their own lines that are surrounding the following code:
 ```
         /* hides the name field */
+        // the div:nth-child(?) will change based on what number your field is
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(1) {
           display: none;
@@ -78,6 +79,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
 Remove the comment code `/*` and `*/` on their own lines that are surrounding the following code:
 ```
         /* hides the email field */
+        // the div:nth-child(?) will change based on what number your field is
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(2){
           display: none;
