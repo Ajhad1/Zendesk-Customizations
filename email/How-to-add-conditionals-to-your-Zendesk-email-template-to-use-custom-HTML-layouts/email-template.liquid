@@ -1,0 +1,4 @@
+{% assign contents = content | escape | split:" " %}
+{% for k in contents %}
+{% if k == 'test_send_email' %}true{% else %}false{% endif %}
+{% endfor %}
