@@ -1,4 +1,4 @@
-/* sets widgets intial settings */
+<!-- sets widgets intial settings -->
 <script type="text/javascript">
 	// sets widgets intial settings
 	window.zESettings = {
@@ -54,13 +54,13 @@
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=472611d3-b79c-481f-a861-b740c508a040"> </script>
 <!-- End of Identity Fusion Zendesk Widget Initialization -->
 
-/* sets default article that explains how to use widget */
+<!-- sets default article that explains how to use widget -->
 <script type="text/javascript">
 	// sets default article that explains how to use widget
 	// to do - add this script to each page with appropriate search terms
 	zE('webWidget', 'helpCenter:setSuggestions', { search: 'widget' });
 </script>
-/* Turning off Identify feature for now for easier integration
+<!-- Turning off Identify feature for now for easier integration -->
 <script type="text/javascript">
 	// finds user in Zendesk
 	// if there is no user that matches it will create one
@@ -72,7 +72,7 @@
 	});
 </script>
 */
-/* Turning off Prefill for easier integration
+<!-- Turning off Prefill for easier integration -->
 <script type="text/javascript">
 	zE('webWidget', 'prefill', {
 		// prefills name
@@ -89,8 +89,8 @@
 		}
 	});
 </script>
-*/
-/* adds CSS to be added to the Web Widget for internals */
+-->
+<!-- adds CSS to be added to the Web Widget for internals -->
 <script type="text/javascript">
 	// on-click of the web widget the following code will run
 	zE('webWidget:on', 'open', function() {
@@ -168,12 +168,12 @@
 			*/
   });
 </script>
-/* opens widget to run code above */
+<!-- opens widget to run code above -->
 <script type="text/javascript">
 	// opens widget to run code above
 	    zE('webWidget', 'open');
 </script>
-/* closes widget to reset it */
+<!-- closes widget to reset it -->
 <script type="text/javascript">
 	// closes widget to reset it
 	    zE('webWidget', 'toggle');
