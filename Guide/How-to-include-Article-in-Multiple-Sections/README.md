@@ -68,10 +68,14 @@ Troubleshooting:
 You should not have to place the code on a specific line/section in the file. 
 
 That being said, I put the code for the article_page.hbs at the very top. Make sure you are not putting the code inside another code block. This could stop the code from working.
+![image](https://user-images.githubusercontent.com/24377175/113754098-da0a1f00-96dc-11eb-808c-08d2f9e5a58f.png)
+
 
 I have included some console logging to help diagnose any issues.
 
-Open any article and pull up the console (usually the console can be opened with control + shift + i)
+Open any article and pull up the console (usually the console can be opened with control + shift + i) and see if something along the lines of the following is visible:
+![image](https://user-images.githubusercontent.com/24377175/113754109-df676980-96dc-11eb-8393-d7689d2e88b3.png)
+
 
 If you do not see "Labels:" and an array then the issue may reside in the implementation of the code in the file.
 
