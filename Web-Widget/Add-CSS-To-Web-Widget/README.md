@@ -37,7 +37,7 @@ How to Install
 * Copy the default Web Widget Script from the admin menu in the Agent interface.
 * Navigate to the website where you will be inserting the Web Widget.
 * Paste the HTML code into the HTML source code of the website.
-* Below where the code has been inserted, input the code in index.js.
+* Below where the code has been inserted, input the code in index.html.
 * Adjust the CSS to match your needs.
 * That's it.
 

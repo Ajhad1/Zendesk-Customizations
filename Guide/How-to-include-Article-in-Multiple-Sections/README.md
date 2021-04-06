@@ -34,7 +34,7 @@ How to Install:
 --------------
 
 * Navigate to the Guide Admin Center to edit the themes.
-* Add the code to the respective location within the appropriate tags.
+* Add the code to the respective locations within the appropriate tags.
 * To test add an article ID to the tag of an article.
 * That's it.
 

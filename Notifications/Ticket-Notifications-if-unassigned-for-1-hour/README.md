@@ -34,8 +34,8 @@ Uses an automation to check to see if a ticket has been unassigned for more than
 How to Install
 --------------
 
-* Create an automation based on the Conditions and Actions
-* Create a Trigger based on the Conditions and Actions
+* Create an automation based on the Conditions and Actions in Automation.md
+* Create a Trigger based on the Conditions and Actions in Trigger.md
 * That's it.
 
 
