@@ -1,3 +1,4 @@
+/* sets widgets intial settings */
 <script type="text/javascript">
 	// sets widgets intial settings
 	window.zESettings = {
@@ -53,6 +54,7 @@
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=472611d3-b79c-481f-a861-b740c508a040"> </script>
 <!-- End of Identity Fusion Zendesk Widget Initialization -->
 
+/* sets default article that explains how to use widget */
 <script type="text/javascript">
 	// sets default article that explains how to use widget
 	// to do - add this script to each page with appropriate search terms
@@ -88,10 +90,11 @@
 	});
 </script>
 */
+/* adds CSS to be added to the Web Widget for internals */
 <script type="text/javascript">
 	// on-click of the web widget the following code will run
 	zE('webWidget:on', 'open', function() {
-	  //creates css for widget internals
+	  // creates any CSS to be added to the Web Widget for internals
 		var style = document.createElement('style');
 			style.innerHTML = `
 				/* hides the zendesk link */
@@ -127,10 +130,10 @@
 				}
 				*/
   			`;
-		//appends the css in the web widget
+		// appends the css in the web widget
 		parent.document.getElementById('webWidget').contentDocument.head.appendChild(style);
 			
-	        //creates css for launcher
+	        // creates any CSS to be added to the Web Widget for launcher
 		var style = document.createElement('style');
 		style.innerHTML = `
 				/* Hides text in widget badge next to Question Mark */
@@ -145,7 +148,7 @@
 				    padding-right: 0px;
 				}
 			`;
-		//appends the css in the web widget
+		// appends the css in the web widget
 		parent.document.getElementById('launcher').contentDocument.head.appendChild(style);
 		/*
 		// attempt at adding javascript into iframe to change label - not working currently
@@ -165,10 +168,12 @@
 			*/
   });
 </script>
+/* opens widget to run code above */
 <script type="text/javascript">
 	// opens widget to run code above
 	    zE('webWidget', 'open');
 </script>
+/* closes widget to reset it */
 <script type="text/javascript">
 	// closes widget to reset it
 	    zE('webWidget', 'toggle');
