@@ -60,7 +60,7 @@
 	// to do - add this script to each page with appropriate search terms
 	zE('webWidget', 'helpCenter:setSuggestions', { search: 'widget' });
 </script>
-<!-- Turning off Identify feature for now for easier integration -->
+<!-- Turning off Identify feature for now for easier integration
 <script type="text/javascript">
 	// finds user in Zendesk
 	// if there is no user that matches it will create one
@@ -71,8 +71,8 @@
 		email: 'akira@voltron.com'
 	});
 </script>
-*/
-<!-- Turning off Prefill for easier integration -->
+-->
+<!-- Turning off Prefill for easier integration
 <script type="text/javascript">
 	zE('webWidget', 'prefill', {
 		// prefills name
@@ -133,7 +133,7 @@
 		// appends the css in the web widget
 		parent.document.getElementById('webWidget').contentDocument.head.appendChild(style);
 			
-	        // creates any CSS to be added to the Web Widget for launcher
+	    // creates any CSS to be added to the Web Widget for launcher
 		var style = document.createElement('style');
 		style.innerHTML = `
 				/* Hides text in widget badge next to Question Mark */
@@ -171,10 +171,10 @@
 <!-- opens widget to run code above -->
 <script type="text/javascript">
 	// opens widget to run code above
-	    zE('webWidget', 'open');
+	zE('webWidget', 'open');
 </script>
 <!-- closes widget to reset it -->
 <script type="text/javascript">
 	// closes widget to reset it
-	    zE('webWidget', 'toggle');
+	zE('webWidget', 'toggle');
 </script>
