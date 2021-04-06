@@ -1,4 +1,4 @@
-Zendesk Hide Zendesk Branding on Web Widget
+Hide Zendesk Branding on Web Widget
 ==============================
 
 Have you ever wanted an easy way to remove the Zendesk Branding on your Web Widget. If so, then this code is exaclty what you are looking for.
