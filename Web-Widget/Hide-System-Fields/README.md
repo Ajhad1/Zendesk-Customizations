@@ -74,7 +74,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
         */
 ```
 
-### Hide the name field
+### Hide the email field
 Remove the comment code `/*` and `*/` on their own lines that are surrounding the following code:
 ```
         /* hides the email field */
@@ -97,7 +97,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
         */
 ```
 
-### Hide the name field
+### Hide the label description
 Remove the comment code `/*` and `*/` on their own lines that are surrounding the following code:
 ```
         /* hides stupid description label */
