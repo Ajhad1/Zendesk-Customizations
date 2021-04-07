@@ -1,0 +1,48 @@
+<!-- This code needs to be copied below the initialization of the web widget. -->
+<!-- This code may need to be modified to identify the correct values of your form. -->
+<!-- You will need to uncomment the code for the area you would like to affect. -->
+
+<!-- adds CSS to be added to the Web Widget for internals -->
+<script type="text/javascript">
+	// on-click of the web widget the following code will run
+	zE('webWidget:on', 'open', function() {
+		// creates any CSS to be added to the Web Widget for internals
+		var style = document.createElement('style');
+			style.innerHTML = `
+				/* hides the zendesk link */
+				// inspect the link using developer tools to get the correct class
+				.kkUEer {
+					visibility: hidden;
+				}
+  			`;
+		// appends the css in the web widget
+		parent.document.getElementById('webWidget').contentDocument.head.appendChild(style);
+
+		// creates any CSS to be added to the Web Widget for launcher
+		var style = document.createElement('style');
+		style.innerHTML = `
+				/* Hides text in widget badge next to Question Mark */
+				// inspect the question mark using developer tools to get the correct identifier
+				#Embed > div > div > button > span.label-3kk12.Arrange-sizeFit.u-textInheritColor.u-inlineBlock {
+				    display: none !important;
+				}
+				/* fixes margin of the icon after removing label */
+				// inspect the question mark using developer tools to get the correct identifier
+				#Embed > div > div > button > span.container-3PFIa.u-userColor.icon-3E9qF.Icon-2SEmO.Arrange-sizeFit.u-textInheritColor.u-inlineBlock.Icon {
+				    padding-right: 0px;
+				}
+			`;
+		// appends the css in the web widget
+		parent.document.getElementById('launcher').contentDocument.head.appendChild(style);
+	});
+</script>
+<!-- opens widget to run code above -->
+<script type="text/javascript">
+	// opens widget to run code above
+	zE('webWidget', 'open');
+</script>
+<!-- closes widget to reset it -->
+<script type="text/javascript">
+	// closes widget to reset it
+	zE('webWidget', 'close');
+</script>
