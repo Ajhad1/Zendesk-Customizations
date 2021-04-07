@@ -58,6 +58,7 @@ Customizations
 Remove or comment out the following code:
 ```
         /* hides the zendesk branding */
+        // inspect using developer tools to get the correct class
         .jwZNfp {
           visibility: hidden;
         }
@@ -68,6 +69,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
 ```
         /* hides the name field */
         // the div:nth-child(?) will change based on what number your field is
+        // inspect using developer tools to get the correct identifier
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(1) {
           display: none;
@@ -80,6 +82,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
 ```
         /* hides the email field */
         // the div:nth-child(?) will change based on what number your field is
+        // inspect using developer tools to get the correct identifier
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(2){
           display: none;
@@ -92,6 +95,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
 ```
         /* fixes margin for new top field */
         // the div:nth-child(?) will change based on what new field will be the top field
+        // inspect using developer tools to get the correct identifier
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(3){
           margin-top: 0px;
@@ -104,6 +108,7 @@ Remove the comment code `/*` and `*/` on their own lines that are surrounding th
 ```
         /* hides stupid description label */
         // the div:nth-child(?) will change based on how many fields you have change the number to match your field
+        // inspect using developer tools to get the correct identifier
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(8) > div > label {
           display: none;
