@@ -1,4 +1,4 @@
-Show only Question Mark in Web Widget
+Show only Question Mark on Web Widget
 ==============================
 
 Have you ever wanted a way to show only the question mark on your Web Widget. If so, then this code is exactly what you are looking for.
