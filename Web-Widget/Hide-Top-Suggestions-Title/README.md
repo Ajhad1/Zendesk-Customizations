@@ -41,6 +41,9 @@ How to Install
 * Adjust the CSS to match your needs.
 * That's it.
 
+![Copy Unique Class](http://i.imgur.com/umFARG8.gif)
+![Copy Unique Class](http://i.imgur.com/qjbRSUE.gif)
+
 How it works (detailed):
 --------------
 
