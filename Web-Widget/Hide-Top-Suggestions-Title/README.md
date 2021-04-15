@@ -41,19 +41,24 @@ How to Install
 * Adjust the CSS to match your needs.
 * That's it.
 
-<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" />
-<img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
+Notes:
+--------------
+
+* If this requires more information/elaboration/photographs, please let me know and I will update it.
 
 How it works (detailed):
 --------------
 
 There is a command in the Web Widet API that allows you to run Javascript when the Web Widget opens, outlined here: https://developer.zendesk.com/embeddables/docs/widget/introduction#commands . Using this command, the Web Widget will be able to inject predefined CSS into its own code. This CSS will be inserted with the other CSS of the Web Widget and therefore will allow user-defined CSS to modify the look and feel of the Web Widget.
 
-Notes:
---------------
-
-* If this requires more information/elaboration/photographs, please let me know and I will update it.
-
 Customizations
 --------------
 ### None at the moment
+
+
+Troubleshooting
+--------------
+
+Code not working for you. Try using the below to get your CSS values.
+<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" />
+<img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
