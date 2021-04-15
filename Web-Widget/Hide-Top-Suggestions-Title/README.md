@@ -46,6 +46,13 @@ Notes:
 
 * If this requires more information/elaboration/photographs, please let me know and I will update it.
 
+Troubleshooting
+--------------
+
+Code not working for you. Try using the below to get your CSS values.
+
+<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" /> <img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
+
 How it works (detailed):
 --------------
 
@@ -54,11 +61,3 @@ There is a command in the Web Widet API that allows you to run Javascript when t
 Customizations
 --------------
 ### None at the moment
-
-
-Troubleshooting
---------------
-
-Code not working for you. Try using the below to get your CSS values.
-
-<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" /> <img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
