@@ -42,7 +42,7 @@ How to Install
 * That's it.
 
 ![Copy Unique Class](http://i.imgur.com/umFARG8.gif)
-![Copy Unique Class](http://i.imgur.com/qjbRSUE.gif)
+![Copy Selector](http://i.imgur.com/C38lbqX.gif)
 
 How it works (detailed):
 --------------
