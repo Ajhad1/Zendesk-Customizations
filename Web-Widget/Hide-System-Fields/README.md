@@ -59,8 +59,8 @@ Remove or comment out the following code:
 ```
         /* hides the zendesk branding */
         // inspect using developer tools to get the correct class
-        .jwZNfp {
-          visibility: hidden;
+        .kkUEer {
+          visibility: hidden !important;
         }
 ```
 
