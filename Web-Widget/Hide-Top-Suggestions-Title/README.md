@@ -60,5 +60,5 @@ Troubleshooting
 --------------
 
 Code not working for you. Try using the below to get your CSS values.
-<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" />
-<img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
+
+<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" /><img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
