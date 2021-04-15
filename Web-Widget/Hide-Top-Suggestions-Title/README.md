@@ -41,8 +41,8 @@ How to Install
 * Adjust the CSS to match your needs.
 * That's it.
 
-![Copy Unique Class](http://i.imgur.com/umFARG8.gif)
-![Copy Selector](http://i.imgur.com/C38lbqX.gif)
+<img src="https://media.giphy.com/media/lMTrnzIfKvvuSBcFro/giphy.gif" alt="Copy Unique Class" />
+<img src="https://media.giphy.com/media/VKKP4LsSY82RWbYAJE/giphy.gif" alt="Copy Selector" />
 
 How it works (detailed):
 --------------
