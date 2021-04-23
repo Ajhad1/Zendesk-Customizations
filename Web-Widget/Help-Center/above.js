@@ -29,13 +29,13 @@ window.zESettings = {
         // to do - add RockMon Variable
         { id: '22736400', prefill: { '*': window.location.href } },
         // prefills description box with String
-        { id: 'description', prefill: { '*': 'Enter a Detailed Description Here' } },
+        // { id: 'description', prefill: { '*': 'Enter a Detailed Description Here' } },
         // prefills Enviroment with String
         // to do - add RockMon Variable
-        { id: '46633588', prefill: { '*': 'Prod' } },
+        // { id: '46633588', prefill: { '*': 'Prod' } },
         // prefills application name with String
         // to do - add RockMon Variable
-        { id: '48952228', prefill: { '*': 'RockMon' } },
+        // { id: '48952228', prefill: { '*': 'RockMon' } },
         // prefills Steps to Reproduce with String
         // to do - add RockMon Variable
         //{ id: '360039260793', prefill: { '*': 'Enter Steps to Reproduce Here' } },
