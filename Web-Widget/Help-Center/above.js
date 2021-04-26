@@ -27,7 +27,7 @@ window.zESettings = {
       fields: [
         // pulls url and enters into URL field
         // to do - add RockMon Variable
-        { id: '22736400', prefill: { '*': window.location.href } },
+        // { id: '22736400', prefill: { '*': window.location.href } },
         // prefills description box with String
         // { id: 'description', prefill: { '*': 'Enter a Detailed Description Here' } },
         // prefills Enviroment with String
