@@ -86,13 +86,11 @@ setTimeout(function(){
     style.innerHTML = `
         /* Hides text in widget badge next to Question Mark */
         /* inspect using developer tools to get the correct identifier */
-        /* #Embed > div > div > button > span.label-3kk12.Arrange-sizeFit.u-textInheritColor.u-inlineBlock { */
         .label-3kk12 {
             display: none !important;
         }
         /* fixes margin of the icon after removing label */
         /* inspect using developer tools to get the correct identifier */
-        /* #Embed > div > div > button > span.container-3PFIa.u-userColor.icon-3E9qF.Icon-2SEmO.Arrange-sizeFit.u-textInheritColor.u-inlineBlock.Icon { */
         .icon-3E9qF {
             padding-right: 0px !important;
         }
