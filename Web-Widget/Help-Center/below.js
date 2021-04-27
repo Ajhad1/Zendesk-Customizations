@@ -119,4 +119,4 @@ setTimeout(function(){
   zE('webWidget', 'open')
   // closes widget to reset it
   zE('webWidget', 'close');
-}, 600)
+}, 1000)
