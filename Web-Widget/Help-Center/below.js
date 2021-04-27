@@ -92,7 +92,8 @@ setTimeout(function(){
         }
         /* fixes margin of the icon after removing label */
         /* inspect using developer tools to get the correct identifier */
-        #Embed > div > div > button > span.container-3PFIa.u-userColor.icon-3E9qF.Icon-2SEmO.Arrange-sizeFit.u-textInheritColor.u-inlineBlock.Icon {
+        /* #Embed > div > div > button > span.container-3PFIa.u-userColor.icon-3E9qF.Icon-2SEmO.Arrange-sizeFit.u-textInheritColor.u-inlineBlock.Icon { */
+        .icon-3E9qF
             padding-right: 0px !important;
         }
       `;
