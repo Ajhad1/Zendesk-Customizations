@@ -66,7 +66,7 @@ Customizations
 Remove or comment out the following code:
 ```
         /* hides the zendesk branding */
-        // inspect using developer tools to get the correct class
+        /* inspect using developer tools to get the correct class */
         .kkUEer {
           visibility: hidden !important;
         }
@@ -76,8 +76,8 @@ Remove or comment out the following code:
 Remove the comment code `/*` and `*/` on their own lines that are surrounding the following code:
 ```
         /* hides stupid description label */
-        // the div:nth-child(?) will change based on how many fields you have change the number to match your field
-        // inspect using developer tools to get the correct identifier
+        /* the div:nth-child(?) will change based on how many fields you have change the number to match your field */
+        /* inspect using developer tools to get the correct identifier */
         /* 
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(8) > div > label {
           display: none;
