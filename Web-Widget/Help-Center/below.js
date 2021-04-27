@@ -40,12 +40,12 @@ setTimeout(function(){
     var style = document.createElement('style');
       style.innerHTML = `
         /* hides the zendesk link */
-        // inspect using developer tools to get the correct class
+        /* inspect using developer tools to get the correct class */
         .kkUEer {
           visibility: hidden !important;
         }
         /* hides the name field */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         /*
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(1) {
           display: none;
@@ -53,25 +53,25 @@ setTimeout(function(){
         */
         /*
         /* hides the email field */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(2){
           display: none;
         }
         */
         /*
         /* fixes margin for new top field */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(3){
           margin-top: 0px;
         }
         */
         /* hides stupid description label */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(9) > div > label {
           display: none;
         }
         /* hides the url field */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         /*
         #Embed > div > div > div > form > div > div.sc-cpmKsF.fvnioU > div:nth-child(4){
           display: none;
@@ -85,12 +85,12 @@ setTimeout(function(){
     var style = document.createElement('style');
     style.innerHTML = `
         /* Hides text in widget badge next to Question Mark */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         #Embed > button > span.label-3kk12.Arrange-sizeFit.u-textInheritColor.u-inlineBlock {
             display: none !important;
         }
         /* fixes margin of the icon after removing label */
-        // inspect using developer tools to get the correct identifier
+        /* inspect using developer tools to get the correct identifier */
         #Embed > button > span.container-3PFIa.u-userColor.icon-3E9qF.Icon-2SEmO.Arrange-sizeFit.u-textInheritColor.u-inlineBlock.Icon {
             padding-right: 0px;
         }
